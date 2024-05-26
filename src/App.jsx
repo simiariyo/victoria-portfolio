@@ -1,4 +1,4 @@
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -8,7 +8,7 @@ import { About, Contact, Experience, Feedbacks,
 const App = () => {
  
   return (
-   <Router basename='/my-portfolio'>
+   <Router>
    <div className='relativez-0 bg-primary min-h-screen'>
       <div className=' relative bg-backdrop-banner bg-cover bg-no-repeat bg-bottom-25'>
         <Navbar/>
