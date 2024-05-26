@@ -103,7 +103,7 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.75] bg-black-100 p-8 rounded-2xl '
+        className='w-full bg-black-100 p-8 rounded-2xl '
       >
         <p className={`${styles.sectionSubText} text-center`}>Let's Work Together</p>
         <h3 className={`${styles.sectionHeadText} text-center`}>Contact Me.</h3>
@@ -163,7 +163,7 @@ const Contact = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
-        <EarthCanvas />
+        {/* <EarthCanvas /> */}
       </motion.div> 
     </div>
   );
